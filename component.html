@@ -1,0 +1,396 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/fmKUxSbtGOM
+-->
+
+<style>:root{--background:0 0% 100%;--foreground:240 10% 3.9%;--card:0 0% 100%;--card-foreground:240 10% 3.9%;--popover:0 0% 100%;--popover-foreground:240 10% 3.9%;--primary:240 5.9% 10%;--primary-foreground:0 0% 98%;--secondary:240 4.8% 95.9%;--secondary-foreground:240 5.9% 10%;--muted:240 4.8% 95.9%;--muted-foreground:240 3.8% 45%;--accent:240 4.8% 95.9%;--accent-foreground:240 5.9% 10%;--destructive:0 72% 51%;--destructive-foreground:0 0% 98%;--border:240 5.9% 90%;--input:240 5.9% 90%;--ring:240 5.9% 10%;--chart-1:173 58% 39%;--chart-2:12 76% 61%;--chart-3:197 37% 24%;--chart-4:43 74% 66%;--chart-5:27 87% 67%;--radius:0.5rem;}img[src="/placeholder.svg"],img[src="/placeholder-user.jpg"]{filter:sepia(.3) hue-rotate(-60deg) saturate(.5) opacity(0.8) }</style>
+<style>h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif; --font-sans-serif: 'Inter'; }
+</style>
+<style>body { font-family: 'Inter', sans-serif; --font-sans-serif: 'Inter'; }
+</style>
+<div class="flex flex-col min-h-screen">
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+      <a href="#" rel="ugc">
+        <img
+          src="/placeholder.svg"
+          alt="Toyota"
+          width="150"
+          height="50"
+          class="h-8"
+          style="aspect-ratio: 150 / 50; object-fit: cover;"
+        />
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a class="text-gray-700 hover:text-gray-900 transition-colors" href="#" rel="ugc">
+          Inicio
+        </a>
+        <a class="text-gray-700 hover:text-gray-900 transition-colors" href="#" rel="ugc">
+          Modelos
+        </a>
+        <a class="text-gray-700 hover:text-gray-900 transition-colors" href="#" rel="ugc">
+          Financiamiento
+        </a>
+        <a class="text-gray-700 hover:text-gray-900 transition-colors" href="#" rel="ugc">
+          Contacto
+        </a>
+      </nav>
+      <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 md:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="h-6 w-6"
+        >
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+    </div>
+  </header>
+  <main class="flex-1">
+    <section class="bg-[url('/banner.jpg')] bg-cover bg-center py-24">
+      <div class="container mx-auto px-6">
+        <h1 class="text-4xl font-bold text-white mb-4">Descubre los nuevos modelos Toyota</h1>
+        <p class="text-lg text-white mb-8">
+          Conoce los últimos lanzamientos de Toyota y encuentra el auto perfecto para ti.
+        </p>
+        <a
+          class="inline-flex items-center justify-center px-6 py-3 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+          href="#"
+          rel="ugc"
+        >
+          Ver modelos
+        </a>
+      </div>
+    </section>
+    <section class="py-12">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8">Nuestros modelos</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Toyota Corolla"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Toyota Corolla</h3>
+              <p class="text-gray-700 mb-4">
+                El Corolla es un sedán compacto con un diseño elegante y eficiencia de combustible.
+              </p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Toyota RAV4"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Toyota RAV4</h3>
+              <p class="text-gray-700 mb-4">
+                El RAV4 es un SUV compacto con un diseño robusto y capacidad off-road.
+              </p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Toyota Camry"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Toyota Camry</h3>
+              <p class="text-gray-700 mb-4">
+                El Camry es un sedán de tamaño medio con un diseño elegante y un interior espacioso.
+              </p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Toyota Highlander"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Toyota Highlander</h3>
+              <p class="text-gray-700 mb-4">
+                El Highlander es un SUV de 3 filas de asientos con espacio y versatilidad.
+              </p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-12">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8">Promociones</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Promoción 1"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Promoción 1</h3>
+              <p class="text-gray-700 mb-4">Aprovecha esta promoción especial en el Toyota Corolla.</p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Promoción 2"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Promoción 2</h3>
+              <p class="text-gray-700 mb-4">Descubre la oferta especial en el Toyota RAV4.</p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+          <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
+            <img
+              src="/placeholder.svg"
+              alt="Promoción 3"
+              width="400"
+              height="300"
+              class="rounded-t-md"
+              style="aspect-ratio: 400 / 300; object-fit: cover;"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Promoción 3</h3>
+              <p class="text-gray-700 mb-4">Aprovecha esta oportunidad en el Toyota Camry.</p>
+              <a
+                class="inline-flex items-center justify-center px-4 py-2 bg-primary text-white font-medium rounded-md hover:bg-primary-dark transition-colors"
+                href="#"
+                rel="ugc"
+              >
+                Ver detalles
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-12">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold mb-8">Contacto</h2>
+        <form class="max-w-lg mx-auto">
+          <div class="mb-4">
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="name"
+            >
+              Nombre
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="name"
+              placeholder="Ingresa tu nombre"
+              type="text"
+            />
+          </div>
+          <div class="mb-4">
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="email"
+            >
+              Correo electrónico
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="email"
+              placeholder="Ingresa tu correo electrónico"
+              type="email"
+            />
+          </div>
+          <div class="mb-4">
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="message"
+            >
+              Mensaje
+            </label>
+            <textarea
+              class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="message"
+              rows="5"
+              placeholder="Escribe tu mensaje"
+              spellcheck="false"
+              data-ms-editor="true"
+            ></textarea>
+          </div>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2"
+            type="submit"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-lg font-bold mb-4">Acerca de Toyota</h3>
+          <ul class="space-y-2">
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Nuestra historia
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Sostenibilidad
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Trabaja con nosotros
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-4">Modelos</h3>
+          <ul class="space-y-2">
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Toyota Corolla
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Toyota RAV4
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Toyota Camry
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Toyota Highlander
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-4">Servicios</h3>
+          <ul class="space-y-2">
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Financiamiento
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Mantenimiento
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Accesorios
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold mb-4">Contacto</h3>
+          <ul class="space-y-2">
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Envía un mensaje
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Encuentra una sucursal
+              </a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white transition-colors" href="#" rel="ugc">
+                Preguntas frecuentes
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-8 text-center">
+        <p class="text-gray-400">© 2024 Toyota. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</div>
