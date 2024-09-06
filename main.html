@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoVentas - Tu concesionario de confianza</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .banner {
+            background-image: url('/api/placeholder/1200/400');
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .models {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+        .model-card {
+            width: 30%;
+            text-align: center;
+        }
+        .model-card img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AutoVentas</h1>
+        <nav>
+            <ul>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div>
+                <h2>Descubre tu próximo vehículo</h2>
+                <p>Calidad y confianza en cada kilómetro</p>
+            </div>
+        </section>
+
+        <section class="models">
+            <div class="model-card">
+                <img src="/api/placeholder/300/200" alt="Modelo Sedán">
+                <h3>Sedán Elegante</h3>
+                <p>Confort y estilo para tu día a día</p>
+            </div>
+            <div class="model-card">
+                <img src="/api/placeholder/300/200" alt="Modelo SUV">
+                <h3>SUV Aventurero</h3>
+                <p>Potencia y versatilidad en un solo vehículo</p>
+            </div>
+            <div class="model-card">
+                <img src="/api/placeholder/300/200" alt="Modelo Híbrido">
+                <h3>Híbrido Eficiente</h3>
+                <p>Tecnología verde para un futuro sostenible</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AutoVentas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
